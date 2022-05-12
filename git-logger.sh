@@ -22,7 +22,7 @@ trap on_exit EXIT SIGINT SIGTERM
 
 days=' '$(date -d monday +%a)' '$(date -d tuesday +%a)' '$(date -d wednesday +%a)' '$(date -d thursday +%a)' '$(date -d friday +%a)' '$(date -d saturday +%a)' '$(date -d sunday +%a)' ' # this should work for international system locales
 
-hours='01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 00'
+hours='00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23'
 colors=(19 21 23 25 27 30 36 39 41 49 51 154 178 172 166 202 196)
 max_hourly_commit=0
 total_commits=0
