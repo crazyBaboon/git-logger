@@ -5,7 +5,7 @@
 # Contributors: James Brown, 
 #               qZeta 
 #               boweeb1011
-#               Mathias Weber
+#               Mathias Weber <mathew.weber@gmail.com>
                 
 function on_exit {
     status=$?
