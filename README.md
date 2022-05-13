@@ -1,7 +1,7 @@
 Git-logger is a Bash tool to create Git Punch Cards
 
 
-for example, the output for the Linux github repository:
+For example, the output for the **Linux** github repository:
 
 ![git-logger-example][imgur]
 
