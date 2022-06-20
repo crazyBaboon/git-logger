@@ -1,4 +1,4 @@
-Git-logger is a Bash tool to create Git Punch Cards
+**git-logger** is a Bash tool to create Git Punch Cards
 
 
 For example, the output for the **Linux** github repository:
