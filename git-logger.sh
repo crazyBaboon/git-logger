@@ -8,7 +8,7 @@
 #               Mathias Weber <mathew.weber@gmail.com>
                 
 function on_exit {
-    status=$?
+    local status=$?
     if [[ -f "$tmp_file" ]]; then
         rm -rf "$tmp_file"
     fi
